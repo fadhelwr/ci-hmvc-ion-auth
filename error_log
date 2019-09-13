@@ -1,0 +1,3 @@
+[24-Jul-2019 13:02:04 UTC] PHP Fatal error:  require_once(): Failed opening required 'dompdf_config.inc.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/dhelrigh/public_html/hmvc/application/modules/inventory/controllers/Inventory.php on line 102
+[24-Jul-2019 13:02:27 UTC] PHP Fatal error:  require_once(): Failed opening required 'dompdf_config.inc.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/dhelrigh/public_html/hmvc/application/modules/inventory/controllers/Inventory.php on line 102
+[24-Jul-2019 13:46:35 UTC] PHP Fatal error:  Trait 'Dompdf\Dompdf' not found in /home/dhelrigh/public_html/hmvc/application/modules/inventory/controllers/Inventory.php on line 12
