@@ -8,3 +8,10 @@ updates:
       - dependency-type: "direct"
     ignore:
       - dependency-name: "squizlabs/php_codesniffer"
+
+  - package-ecosystem: "composer"
+    directory: "/application/libraries/dompdf"
+    schedule:
+      interval: "weekly"
+    allow:
+      - dependency-type: "direct"
