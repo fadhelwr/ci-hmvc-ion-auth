@@ -8,10 +8,9 @@ updates:
       - dependency-type: "direct"
     ignore:
       - dependency-name: "squizlabs/php_codesniffer"
-
-  - package-ecosystem: "composer"
-    directory: "/application/libraries/dompdf"
-    schedule:
-      interval: "weekly"
-    allow:
-      - dependency-type: "direct"
+      - dependency-name: "phpunit/phpunit"
+      - dependency-name: "phenx/php-font-lib"
+      - dependency-name: "phenx/php-svg-lib"
+    exclude-paths:
+      - "application/libraries/dompdf/**"
+      - "assets/bower_components/**"
